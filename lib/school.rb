@@ -3,7 +3,8 @@
 class School 
   
   def initialize(school_name)
-    @scho
+    @school_name = school_name
+    @roster = []
     
     
   end
