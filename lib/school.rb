@@ -18,6 +18,7 @@ class School
     if roster.include? (grade) == FALSE
       @roster[grade] = []
     else
-      
+      roster[grade] << name
+    end
   
 end
