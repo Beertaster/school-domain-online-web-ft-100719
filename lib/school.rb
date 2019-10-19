@@ -15,6 +15,6 @@ class School
     @name = name
     @grade = grade
     
-    
+    if roster.include? 
   
 end
